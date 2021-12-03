@@ -13,5 +13,5 @@ setup(name='api',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/api-run'],
+      scripts=['scripts/api-run', 'scripts/linkedin_project-run'],
       zip_safe=False)
