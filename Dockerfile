@@ -5,6 +5,7 @@ COPY requirements.txt /requirements.txt
 COPY model.joblib /model.joblib
 COPY setup.py /setup.py
 COPY scripts /scripts
+COPY linkedin_project /linkedin_project
 
 RUN pip install --upgrade pip
 RUN pip install -e .
